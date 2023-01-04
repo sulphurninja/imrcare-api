@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "responses",
+  "info": {
+    "singularName": "response",
+    "pluralName": "responses",
+    "displayName": "Response"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "surveyQuestion": {
+      "type": "string"
+    },
+    "surveyResponse": {
+      "type": "string"
+    }
+  }
+}

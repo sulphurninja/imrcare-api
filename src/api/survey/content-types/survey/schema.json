@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "surveys",
+  "info": {
+    "singularName": "survey",
+    "pluralName": "surveys",
+    "displayName": "Survey",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "SelectProblem": {
+      "type": "string"
+    },
+    "Problem1": {
+      "type": "string"
+    },
+    "Problem2": {
+      "type": "string"
+    },
+    "Problem3": {
+      "type": "string"
+    },
+    "Problem4": {
+      "type": "string"
+    },
+    "Problem5": {
+      "type": "string"
+    }
+  }
+}

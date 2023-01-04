@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobiles",
+  "info": {
+    "singularName": "mobile",
+    "pluralName": "mobiles",
+    "displayName": "Mobile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "mobiles"
+    }
+  }
+}
